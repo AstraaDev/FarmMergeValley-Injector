@@ -128,12 +128,12 @@ Make sure you've followed exactly the steps described in the “Common part of e
 - Search the file (by pressing `CTRL`+`F`)
 - Write the following command and press `ENTER` :
 ```js
-_0x5159f1['_forc' + 'edLoo' + 't'] = []
+['_forc' + 'edLoo' + 't'] = []
 ```
 - Set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/readme_screenshot/FMV_6.png" width="300">
 
-- Return to the game and collect or merge any item (e.g. eggs, wheat) *(the game should stop again)*
+- - Return to the game and merge three objects (e.g. eggs, wheat). The game will only stop if the fusion creates an object of max evolution level. *(the game should stop again)*
 - In the **SOURCE** tab, find the loot section at `Local/this/_data/loot` *(see image below)*
 <img src="img/readme_screenshot/FMV_4.png" width="300">
 
