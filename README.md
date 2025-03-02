@@ -133,7 +133,7 @@ Make sure you've followed exactly the steps described in the “Common part of e
 - Set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/readme_screenshot/FMV_6.png" width="300">
 
-- Return to the game and merge three objects (e.g. eggs, wheat). The game will only stop if you merge level 3 objects.
+- Return to the game and merge three objects (e.g. eggs, wheat). The game will only stop if you merge tier 3 objects.
 - In the **SOURCE** tab, find the loot section at `Local/this/_data/loot` *(see image below)*
 <img src="img/readme_screenshot/FMV_4.png" width="300">
 
