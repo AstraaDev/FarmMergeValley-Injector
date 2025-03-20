@@ -87,7 +87,7 @@ Make sure you've followed exactly the steps described in the “Common part of e
 ```js
 this['servi' + 'ces']['mapGr' + 'id']['getCe' + 'll']
 ```
-- There will normally be 9 results. Navigate to the 2nd result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+- There will normally be 11 results. Navigate to the 4th result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/readme_screenshot/FMV_3.png" width="400">
 
 - Return to the game and moove an object *(the game should stop again)*
@@ -293,7 +293,7 @@ Make sure you've followed exactly the steps described in the “Common part of e
 ```js
 this['servi' + 'ces']['mapGr' + 'id']['getCe' + 'll']
 ```
-- There will normally be 9 results. Navigate to the 2nd result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+- There will normally be 11 results. Navigate to the 4th result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/readme_screenshot/FMV_3.png" width="400">
 
 - Return to the game and moove an object *(the game should stop again)*
@@ -338,7 +338,7 @@ Make sure you've followed exactly the steps described in the “Common part of e
 ```js
 this['servi' + 'ces']['mapGr' + 'id']['getCe' + 'll']
 ```
-- There will normally be 9 results. Navigate to the 2nd result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+- There will normally be 11 results. Navigate to the 4th result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/readme_screenshot/FMV_3.png" width="400">
 
 - Return to the game and moove an object *(the game should stop again)*
@@ -370,7 +370,7 @@ Make sure you've followed exactly the steps described in the “Common part of e
 ```js
 this['servi' + 'ces']['mapGr' + 'id']['getCe' + 'll']
 ```
-- There will normally be 9 results. Navigate to the 2nd result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+- There will normally be 11 results. Navigate to the 4th result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/readme_screenshot/FMV_3.png" width="400">
 
 - Return to the game and moove an object *(the game should stop again)*
