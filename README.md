@@ -394,6 +394,6 @@ setLuckyMergeChance(percentage);
 Don't forget to replace the `percentage` argument with a number between 0 and 100. Setting `100` as an argument means that the lucky merge will always take place, and setting `0` as an argument means that the lucky merge will never take place (the default value is 5).
 </details>
 
-## Additional Informations
-Discord :
-- Any question ? Any malfunction ? Contact me on [here](discord.gg/PKR7nM9j9U).
+## Additional Information
+- Need help? Join the [Discord Server](https://astraadev.github.io/discord).
+- Contributions are welcome! Open an issue or create a pull request.
