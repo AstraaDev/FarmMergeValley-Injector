@@ -395,5 +395,5 @@ Don't forget to replace the `percentage` argument with a number between 0 and 10
 </details>
 
 ## Additional Information
-- Need help? Join the [Discord Server](https://astraadev.github.io/discord).
+- Need help? Join the [Discord Server](https://astraadev.github.io/#/discord).
 - Contributions are welcome! Open an issue or create a pull request.
