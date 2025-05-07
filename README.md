@@ -53,7 +53,7 @@ From now on, the next steps will depend on each method. Make sure you've followe
 | `coins`         | Yellow coins          |
 | `gems`          | Purple gems           |
 | `exp`           | Experience            |
-| `levels`        | Levels                |
+| `level`         | Level                 |
 | `crates`        | Crates with items     |
 | `energy`        | Energy for activities |
 | `tickets`       | Train tickets         |
@@ -395,5 +395,8 @@ Don't forget to replace the `percentage` argument with a number between 0 and 10
 </details>
 
 ## Additional Information
+- The change in the player's XP Level will not be reflected on-screen until after exiting and relaunching FMV. However, things affected by XP Level (such as unlocking plots of non-premium land for purchase) will be affected immediately, without restarting FMV.
+- Adding a negative value for level will reduce the XP Level by that amount. And the negative addition of basic resources (gems, parts) will take them away.
+- Important to note that FMV will break (become unplayable but still viewable) if XP Level exceeds 70 (FMV.v.1.62.6). Adding negative amounts to the level may still be possible in order to bring it back below Lvl 70. (refer to [issue 7](https://github.com/AstraaDev/FarmMergeValley-Injector/issues/7))
 - Need help? Join the [Discord Server](https://astraadev.github.io/#/discord).
 - Contributions are welcome! Open an issue or create a pull request.
