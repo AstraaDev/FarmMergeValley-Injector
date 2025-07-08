@@ -85,12 +85,12 @@ Make sure you've followed exactly the steps described in the “Common part of e
 - Search the file (by pressing `CTRL`+`F`)
 - Write the following command and press `ENTER` :
 ```js
-this['servi' + 'ces']['mapGr' + 'id']['getCe' + 'll']
+this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
 - There will normally be 22 results. Navigate to the 9th result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/readme_screenshot/FMV_3.png" width="400">
 
-- Return to the game and move an object and place it on another object *(game should stop again)*
+- Return to the game and move an object (or place it on another object) *(game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
 ```js
 worldServices = this.services
@@ -291,12 +291,12 @@ Make sure you've followed exactly the steps described in the “Common part of e
 - Search the file (by pressing `CTRL`+`F`)
 - Write the following command and press `ENTER` :
 ```js
-this['servi' + 'ces']['mapGr' + 'id']['getCe' + 'll']
+this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
 - There will normally be 22 results. Navigate to the 9th result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/readme_screenshot/FMV_3.png" width="400">
 
-- Return to the game and move an object and place it on another object *(game should stop again)*
+- Return to the game and move an object (or place it on another object) *(game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
 ```js
 worldServices = this.services
@@ -336,12 +336,12 @@ Make sure you've followed exactly the steps described in the “Common part of e
 - Search the file (by pressing `CTRL`+`F`)
 - Write the following command and press `ENTER` :
 ```js
-this['servi' + 'ces']['mapGr' + 'id']['getCe' + 'll']
+this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
 - There will normally be 22 results. Navigate to the 9th result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/readme_screenshot/FMV_3.png" width="400">
 
-- Return to the game and move an object and place it on another object *(game should stop again)*
+- Return to the game and move an object (or place it on another object) *(game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
 ```js
 worldServices = this.services
@@ -368,12 +368,12 @@ Make sure you've followed exactly the steps described in the “Common part of e
 - Search the file (by pressing `CTRL`+`F`)
 - Write the following command and press `ENTER` :
 ```js
-this['servi' + 'ces']['mapGr' + 'id']['getCe' + 'll']
+this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
 ```
 - There will normally be 22 results. Navigate to the 9th result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
 <img src="img/readme_screenshot/FMV_3.png" width="400">
 
-- Return to the game and move an object and place it on another object *(game should stop again)*
+- Return to the game and move an object (or place it on another object) *(game should stop again)*
 - In the **CONSOLE** tab, write the following command and press `ENTER` :
 ```js
 worldServices = this.services
