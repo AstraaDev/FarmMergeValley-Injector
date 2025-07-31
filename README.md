@@ -4,101 +4,107 @@
 
 <h1 align="center">[Discord] - FarmMergeValley Injector</h1>
 
-<p align="left">
-  FMV Injector lets you set up various methods for modifying content in the Farm Merge Valley discord game. This project follows on from @wooslow's repositorie on the same subject. Perform these steps preferably from a Google Chrome browser. There is currently no guarantee that these methods will work on other browsers.
-  These methods go against the rules of the game's developers, and waves of bans have already occurred. I am in no way responsible for your actions. Please use this tool with full knowledge of the risks involved.
-</p>
+FMV Injector lets you set up various methods for modifying content in the Farm Merge Valley Discord game. This project is based on @wooslow's repository on the same subject. For best results, perform these steps using Google Chrome. There is no guarantee that these methods will work on other browsers.
+<br><br>
+These methods violate the game developers' rules, and many bans have already occurred. I take no responsibility for your actions. Use this tool only if you fully understand the risks involved.
 
 ---
 
 ## Features
 
-- [x] - [giveInventoryItem](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Obtain any object in unlimited quantities.
-- [x] - [spawnUpgradeCard](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn an upgrade card.
-- [x] - [spawnBubbledObject](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn a bubble object (gift, coins, gems, energy, crates, chests, keys, decorations).
-- [x] - [removeAllObstacles](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - remove all obstacles (trees and stones) from the map.
-- [x] - [setLuckyMergeChance](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Set the lucky merge chance of objects.
+* [x] \- [giveInventoryItem](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Obtain unlimited quantities of any item.
+* [x] \- [spawnUpgradeCard](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn an upgrade card.
+* [x] \- [spawnBubbledObject](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Spawn a bubble object *(gifts, coins, gems, energy, crates, chests, keys, decorations)*.
+* [x] \- [removeAllObstacles](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Remove all obstacles *(trees and stones)* from the map.
+* [x] \- [setLuckyMergeChance](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector) - Set the lucky merge chance of objects.
 
 ---
 
-## Common part of each method
-Each of the methods described here works in the same way. The game needs to be “paused” at the right moment to access certain elements that are normally blocked. The differences between these methods are the information to be retrieved, the precise moment to break the script, the action to be taken to break the script, etc...
-Even if these parts change depending on the method, the beginning remains the same.
+## Common Steps for Each Method
 
----
+All methods rely on pausing the game at a precise moment to access normally restricted elements. The difference between methods lies in the specific data retrieved, the exact breakpoint timing, and the injection commands. The initial setup is the same for all methods.
 
-#### Setup
-- Launch of Farm Merge Valley on discord *(and never close it again until the end)*
-- Open the browser console (by pressing `CTRL`+`SHIFT`+`I` on Windows/Linux or `Cmd`+`Opt`+`I` on MacOS)
-- Your game should now be "paused". In the **CONSOLE** tab, write the following command and press `ENTER` :
+* Launch Farm Merge Valley on Discord and **do not close it** until you finish.
+* Open the browser DevTools *(press `CTRL` + `SHIFT` + `I` on Windows/Linux or `Cmd` + `Opt` + `I` on Mac)*.
+* The game should now be paused. In the **CONSOLE** tab, enter:
 ```js
 Function.prototype.constructor = function() {};
 ```
-- Click on the `Resume script execution` button *(see image below) (it's the blue button)*
+
+* Click the **Resume script execution** button *(the blue ▶️ button) (see image below)*
 <img src="img/readme_screenshot/FMV_1.png" width="100">
 
-- In the **SOURCE** tab, find the file named main.js located at `top/1187.discordsays.com/1187.discordsays.com/main.1401.js` *(see image below)*
-<img src="img/readme_screenshot/FMV_2.png" width="300">
-
-From now on, the next steps will depend on each method. Make sure you've followed exactly the steps described in this section before moving on.
+Make sure these steps are followed exactly before proceeding to any method-specific instruction
 
 ---
 
-## [METHOD 1] : giveInventoryItem
+## \[METHOD 1] : giveInventoryItem
+
 <details>
-<summary>What you can get with this method ?</summary>
-  
-| Parameter       | Description           |
-| :-------------- | :-------------------- |
-| `coins`         | Yellow coins          |
-| `gems`          | Purple gems           |
-| `exp`           | Experience            |
-| `level`         | Level                 |
-| `crates`        | Crates with items     |
-| `energy`        | Energy for activities |
-| `tickets`       | Train tickets         |
-| `wheat`         | Wheat                 |
-| `egg`           | Egg                   |
-| `sunflower`     | Sunflower             |
-| `milk`          | Milk                  |
-| `sugarcane`     | Sugarcane             |
-| `bacon`         | Bacon                 |
-| `carrot`        | Carrot                |
-| `goatmilk`      | Goat milk             |
-| `soybeans`      | Soybeans              |
-| `wool`          | Wool                  |
-| `corn`          | Corn                  |
-| `fur`           | Fur                   |
-| `coffeebeans`   | Coffee beans          |
-| `tomato`        | Tomato                |
-| `avocado`       | Avocado               |
-| `truffle`       | Truffle               |
+<summary>Items you can obtain with this method</summary>
+
+| Parameter     | Description           |
+| :------------ | :-------------------- |
+| `coins`       | Yellow coins          |
+| `gems`        | Purple gems           |
+| `exp`         | Experience            |
+| `level`       | Level                 |
+| `crates`      | Crates with items     |
+| `energy`      | Energy for activities |
+| `tickets`     | Train tickets         |
+| `wheat`       | Wheat                 |
+| `egg`         | Egg                   |
+| `sunflower`   | Sunflower             |
+| `milk`        | Milk                  |
+| `sugarcane`   | Sugarcane             |
+| `bacon`       | Bacon                 |
+| `carrot`      | Carrot                |
+| `goatmilk`    | Goat milk             |
+| `soybeans`    | Soybeans              |
+| `wool`        | Wool                  |
+| `corn`        | Corn                  |
+| `fur`         | Fur                   |
+| `coffeebeans` | Coffee beans          |
+| `tomato`      | Tomato                |
+| `avocado`     | Avocado               |
+| `truffle`     | Truffle               |
+
 </details>
 
 <details>
-<summary>Click to expand the information</summary>
+<summary>Click to expand detailed instructions</summary>
 
-Make sure you've followed exactly the steps described in the “Common part of each method” section before moving on to this one.
+#### Locating the File
+* Go to the **SOURCE** tab.
+* Open the file search panel *(`CTRL`+`P`)*.
+* Search for the file `AutoPlaceSystem.ts`.
+
+> **Note:** Full path:
+> `/farm-merge-game/src/core/gameobjects/systems/AutoPlaceSystem.ts`
 
 #### Injection
-- In `main.js` file,
-- Search the file (by pressing `CTRL`+`F`)
-- Write the following command and press `ENTER` :
-```js
-this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
+* Inside `AutoPlaceSystem.ts`, open the search panel *(`CTRL`+`F`)*.
+* Search for:
+```ts
+const originCell
 ```
-- There will normally be 4 results. Navigate to the 3rd result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
-<img src="img/readme_screenshot/FMV_3.png" width="400">
 
-- Return to the game and move an object (or place it on another object) *(game should stop again)*
-- In the **CONSOLE** tab, write the following command and press `ENTER` :
+* There will be only **one result**. Set a **breakpoint** on this line by clicking in the gray area to the left.
+<img src="img/readme_screenshot/FMV_3.png" width="400">  
+
+> **Full line:**
+> `const originCell: GridCell | undefined = this.services.mapGrid.getCell(autoPlaceBehavior.rootPosition.column, autoPlaceBehavior.rootPosition.row);`
+
+* Return to the game and **move an object** *(or place it on another object)*. The game should pause again.
+* In the **CONSOLE** tab, enter:
 ```js
 worldServices = this.services
 ```
-- You can now go back to the `main.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again
+
+* Go back to the `AutoPlaceSystem.ts` file in the **SOURCE** tab, remove the breakpoint *(click it again)*, then click `Resume script execution`.
 
 #### Setting up the function
-- In the **CONSOLE** tab, write the following command and press `ENTER` :
+* In the **CONSOLE**, enter:
 ```js
 let giveInventoryItem = (target, amount) => {
     return worldServices.rewardService.giveInventoryReward({
@@ -108,48 +114,59 @@ let giveInventoryItem = (target, amount) => {
 }
 ```
 
-#### Use injection
-You're all set! Now all you have to do is enter the following command in the **CONSOLE** tab and press `ENTER` :
+#### Using the Injection
+* Now, in the **CONSOLE**, run:
 ```js
 giveInventoryItem("item", amount);
 ```
-Don't forget to replace the `item` argument with one of the parameters in the `What you can get with this method?` table of this method, and `amount` with the amount you want.
+
+Replace `"item"` with one of the parameters from the table above, and `amount` with your desired quantity.
+
 </details>
 
 ---
 
-## [METHOD 2] : spawnUpgradeCard
+## \[METHOD 2] : spawnUpgradeCard
+
 <details>
-<summary>Click to expand the information</summary>
-Make sure you've followed exactly the steps described in the “Common part of each method” section before moving on to this one.
-  
+<summary>Click to expand detailed instructions</summary>
+
+#### Locating the File
+* Go to the **SOURCE** tab.
+* Open the file search panel *(`CTRL`+`P`)*.
+* Search for the file `AutoPlaceSystem.ts`.
+
+> **Note:** Full path:
+> `/farm-merge-game/src/core/gameobjects/systems/AutoPlaceSystem.ts`
+
 #### Injection
-- In `main.js` file,
-- Search the file (by pressing `CTRL`+`F`)
-- Write the following command and press `ENTER` :
+* Inside `AutoPlaceSystem.ts`, open the search panel *(`CTRL`+`F`)*.
+* Search for:
 ```js
 ['_forc' + 'edLoo' + 't'] = []
 ```
-- Set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
+
+ Set a **breakpoint** on this line by clicking in the gray area to the left.
 <img src="img/readme_screenshot/FMV_6.png" width="300">
 
-- Return to the game and merge three objects (e.g. eggs, wheat). The game will only stop if you merge tier 3 objects.
-- In the **SOURCE** tab, find the loot section at `Local/this/_data/loot` *(see image below)*
+* Return to the game and merge three objects *(e.g., eggs or wheat)*. The game will pause only if you merge tier 3 objects.
+* In the **SOURCE** tab, locate the loot array at `Local/this/_data/loot`.
 <img src="img/readme_screenshot/FMV_4.png" width="300">
 
-- Replace one of the elements with `“upgrade_card_1”`, `“upgrade_card_2”` or `“upgrade_card_3”` to suit your needs *(see image below)*
+* Replace one element with `"upgrade_card_1"`, `"upgrade_card_2"`, or `"upgrade_card_3"` depending on your needs.
 <img src="img/readme_screenshot/FMV_5.png" width="300">
 
-- You can now go back to the `main.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again
-- All you have to do now is click on the merged item in the game, and the upgrade card should appear.
+* Go back to `main.js` in **SOURCE**, remove the breakpoint, then click `Resume script execution`.
+* Click the merged item in-game; the upgrade card will spawn.
 
 </details>
 
 ---
 
 ## [METHOD 3] : spawnBubbledObject
+
 <details>
-<summary>What you can get with this method ?</summary>
+<summary>Items you can obtain with this method</summary>
 
 ### Consumable
 
@@ -282,29 +299,39 @@ Make sure you've followed exactly the steps described in the “Common part of e
 </details>
 
 <details>
-<summary>Click to expand the information</summary>
+<summary>Click to expand detailed instructions</summary>
 
-Make sure you've followed exactly the steps described in the “Common part of each method” section before moving on to this one.
+#### Locating the File
+* Go to the **SOURCE** tab.
+* Open the file search panel *(`CTRL`+`P`)*.
+* Search for the file `AutoPlaceSystem.ts`.
+
+> **Note:** Full path:
+> `/farm-merge-game/src/core/gameobjects/systems/AutoPlaceSystem.ts`
 
 #### Injection
-- In `main.js` file,
-- Search the file (by pressing `CTRL`+`F`)
-- Write the following command and press `ENTER` :
-```js
-this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
+* Inside `AutoPlaceSystem.ts`, open the search panel *(`CTRL`+`F`)*.
+* Search for:
+```ts
+const originCell
 ```
-- There will normally be 4 results. Navigate to the 3rd result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
-<img src="img/readme_screenshot/FMV_3.png" width="400">
 
-- Return to the game and move an object (or place it on another object) *(game should stop again)*
-- In the **CONSOLE** tab, write the following command and press `ENTER` :
+* There will be only **one result**. Set a **breakpoint** on this line by clicking in the gray area to the left.
+<img src="img/readme_screenshot/FMV_3.png" width="400">  
+
+> **Full line:**
+> `const originCell: GridCell | undefined = this.services.mapGrid.getCell(autoPlaceBehavior.rootPosition.column, autoPlaceBehavior.rootPosition.row);`
+
+* Return to the game and **move an object** *(or place it on another object)*. The game should pause again.
+* In the **CONSOLE** tab, enter:
 ```js
 worldServices = this.services
 ```
-- You can now go back to the `main.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again
+
+* Go back to the `AutoPlaceSystem.ts` file in the **SOURCE** tab, remove the breakpoint *(click it again)*, then click `Resume script execution`.
 
 #### Setting up the function
-- In the **CONSOLE** tab, write the following command and press `ENTER` :
+* In the **CONSOLE**, enter:
 ```js
 let spawnBubbledObject = (target) => {
     return worldServices.rewardService.giveObjectReward({
@@ -316,87 +343,131 @@ let spawnBubbledObject = (target) => {
 }
 ```
 
-#### Use injection
-You're all set! Now all you have to do is enter the following command in the **CONSOLE** tab and press `ENTER` :
+#### Using the Injection
+* Now run in the **CONSOLE**:
 ```js
 spawnBubbledObject("item");
 ```
-Don't forget to replace the `item` argument with one of the parameters in the `What you can get with this method?` table of this method.
+
+Replace `"item"` with the desired object key.
+
 </details>
 
 ---
 
-## [METHOD 4] : removeAllObstacles
+## \[METHOD 4] : removeAllObstacles
+
 <details>
-<summary>Click to expand the information</summary>
-Make sure you've followed exactly the steps described in the “Common part of each method” section before moving on to this one.
+<summary>Click to expand detailed instructions</summary>
+
+#### Locating the File
+* Go to the **SOURCE** tab.
+* Open the file search panel *(`CTRL`+`P`)*.
+* Search for the file `AutoPlaceSystem.ts`.
+
+> **Note:** Full path:
+> `/farm-merge-game/src/core/gameobjects/systems/AutoPlaceSystem.ts`
 
 #### Injection
-- In `main.js` file,
-- Search the file (by pressing `CTRL`+`F`)
-- Write the following command and press `ENTER` :
-```js
-this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
+* Inside `AutoPlaceSystem.ts`, open the search panel *(`CTRL`+`F`)*.
+* Search for:
+```ts
+const originCell
 ```
-- There will normally be 4 results. Navigate to the 3rd result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
-<img src="img/readme_screenshot/FMV_3.png" width="400">
 
-- Return to the game and move an object (or place it on another object) *(game should stop again)*
-- In the **CONSOLE** tab, write the following command and press `ENTER` :
+* There will be only **one result**. Set a **breakpoint** on this line by clicking in the gray area to the left.
+<img src="img/readme_screenshot/FMV_3.png" width="400">  
+
+> **Full line:**
+> `const originCell: GridCell | undefined = this.services.mapGrid.getCell(autoPlaceBehavior.rootPosition.column, autoPlaceBehavior.rootPosition.row);`
+
+* Return to the game and **move an object** *(or place it on another object)*. The game should pause again.
+* In the **CONSOLE** tab, enter:
 ```js
 worldServices = this.services
 ```
-- You can now go back to the `main.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again
 
-#### Use injection
-- In the **CONSOLE** tab, write the following command and press `ENTER` :
-```js
-worldServices.world.getAllGameObjects().filter(x=>x.hasBehavior("hitpoints") && !x.hasBehavior("shovelable") && !x.hasBehavior("movable")).forEach(x=>worldServices.world.removeGameObject(x))
-```
-</details>
-
----
-
-## [METHOD 5] : setLuckyMergeChance
-<details>
-<summary>Click to expand the information</summary>
-  
-Make sure you've followed exactly the steps described in the “Common part of each method” section before moving on to this one.
-
-#### Injection
-- In `main.js` file,
-- Search the file (by pressing `CTRL`+`F`)
-- Write the following command and press `ENTER` :
-```js
-this['servi' + 'ces']['mapGr' + 'id']['setCo' + 'ntent']
-```
-- There will normally be 4 results. Navigate to the 3rd result and set a breakpoint by clicking on the left of the line in the grey area *(see image below)*
-<img src="img/readme_screenshot/FMV_3.png" width="400">
-
-- Return to the game and move an object (or place it on another object) *(game should stop again)*
-- In the **CONSOLE** tab, write the following command and press `ENTER` :
-```js
-worldServices = this.services
-```
-- You can now go back to the `main.js` file in the **SOURCE** tab, then remove the breakpoint *(by clicking on it again)* and click on the `Resume script execution` button again
+* Go back to the `AutoPlaceSystem.ts` file in the **SOURCE** tab, remove the breakpoint *(click it again)*, then click `Resume script execution`.
 
 #### Setting up the function
-- In the **CONSOLE** tab, write the following command and press `ENTER` :
+* In the **CONSOLE**, enter:
+```js
+worldServices = this.services
+```
+
+* Return to `AutoPlaceSystem.ts`, remove the breakpoint, then resume execution.
+
+#### Using the Injection
+* In the **CONSOLE**, run:
+```js
+worldServices.world.getAllGameObjects()
+  .filter(x => x.hasBehavior("hitpoints") && !x.hasBehavior("shovelable") && !x.hasBehavior("movable"))
+  .forEach(x => worldServices.world.removeGameObject(x))
+```
+
+</details>
+
+---
+
+## \[METHOD 5] : setLuckyMergeChance
+
+<details>
+<summary>Click to expand detailed instructions</summary>
+
+#### Locating the File
+* Go to the **SOURCE** tab.
+* Open the file search panel *(`CTRL`+`P`)*.
+* Search for the file `AutoPlaceSystem.ts`.
+
+> **Note:** Full path:
+> `/farm-merge-game/src/core/gameobjects/systems/AutoPlaceSystem.ts`
+
+#### Injection
+* Inside `AutoPlaceSystem.ts`, open the search panel *(`CTRL`+`F`)*.
+* Search for:
+```ts
+const originCell
+```
+
+* There will be only **one result**. Set a **breakpoint** on this line by clicking in the gray area to the left.
+<img src="img/readme_screenshot/FMV_3.png" width="400">  
+
+> **Full line:**
+> `const originCell: GridCell | undefined = this.services.mapGrid.getCell(autoPlaceBehavior.rootPosition.column, autoPlaceBehavior.rootPosition.row);`
+
+* Return to the game and **move an object** *(or place it on another object)*. The game should pause again.
+* In the **CONSOLE** tab, enter:
+```js
+worldServices = this.services
+```
+
+* Go back to the `AutoPlaceSystem.ts` file in the **SOURCE** tab, remove the breakpoint *(click it again)*, then click `Resume script execution`.
+
+#### Setting up the function
+* In the **CONSOLE**, enter:
 ```js
 let setLuckyMergeChance = (percentage) => worldServices.mapGridView._view.parent.parent.parent._systems.find(x => x._luckyMergeChance)._luckyMergeChance = percentage;
 ```
 
-#### Use injection
-You're all set! Now all you have to do is enter the following command in the **CONSOLE** tab and press `ENTER` :
+#### Using the Injection
+* Run in the **CONSOLE**:
 ```js
 setLuckyMergeChance(percentage);
 ```
-Don't forget to replace the `percentage` argument with a number between 0 and 100. Setting `100` as an argument means that the lucky merge will always take place, and setting `0` as an argument means that the lucky merge will never take place (the default value is 5).
+
+Replace `percentage` with a number between 0 and 100.
+
+* `100` means the lucky merge always happens.
+* `0` means it never happens *(default is 5)*.
+
 </details>
 
+---
+
 ## Additional Information
-- The change in the player's XP Level will not be reflected on-screen until after exiting and relaunching FMV. However, things affected by XP Level (such as unlocking plots of non-premium land for purchase) will be affected immediately, without restarting FMV.
-- Adding a negative value for level will reduce the XP Level by that amount. And the negative addition of basic resources (gems, parts) will take them away.
-- Important to note that FMV will break (become unplayable but still viewable) if XP Level exceeds 70 (FMV.v.1.62.6). Adding negative amounts to the level may still be possible in order to bring it back below Lvl 70. (refer to [issue 7](https://github.com/AstraaDev/FarmMergeValley-Injector/issues/7))
-- Need help? Join the [Discord Server](https://astraadev.github.io/#/discord).
-- Contributions are welcome! Open an issue or create a pull request.
+
+* Changes to XP Level won't update on-screen until you exit and relaunch FMV. However, effects like unlocking new plots apply immediately.
+* Using negative values for level will reduce XP Level; similarly, negative amounts for resources will remove them.
+* Be aware that FMV will become unstable/unplayable if XP Level exceeds 70 *(FMV v1.62.6)*. You can reduce level by adding negative values to fix this. *(See [issue 7](https://github.com/AstraaDev/FarmMergeValley-Injector/issues/7))*
+* Need help? Join the [Discord Server](https://astraadev.github.io/#/discord).
+* Contributions welcome! Open issues or create pull requests.
