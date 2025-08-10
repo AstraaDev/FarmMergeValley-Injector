@@ -1,12 +1,45 @@
+<!--
+SPDX-FileCopyrightText: © 2024 Lenny McLennington <lenny@sneed.church>
+SPDX-FileCopyrightText: © 2025 Astraa
+SPDX-License-Identifier: GPL-3.0-only
+
+FarmMergeValley-Injector is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3.
+
+FarmMergeValley-Injector is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with FarmMergeValley-Injector. If not, see <https://www.gnu.org/licenses/>.
+-->
+
 <p align="center">
   <img src="https://venturebeat.com/wp-content/uploads/2022/11/press_release_banner.jpg" width="800">
 </p>
 
 <h1 align="center">[Discord] - FarmMergeValley Injector</h1>
 
-FMV Injector lets you set up various methods for modifying content in the Farm Merge Valley Discord game. This project is based on @wooslow's repository on the same subject. For best results, perform these steps using Google Chrome. There is no guarantee that these methods will work on other browsers.
+FMV Injector lets you set up various methods for modifying content in the Farm Merge Valley Discord game. This project is based on [@wooslow](https://github.com/wooslow)'s repository on the same subject, and uses [code written by @LennyMcLennington](https://gist.github.com/LennyMcLennington/e94507b560c2951870486599d490267a). For best results, perform these steps using Google Chrome. There is no guarantee that these methods will work on other browsers.
 <br><br>
 These methods violate the game developers' rules, and many bans have already occurred. I take no responsibility for your actions. Use this tool only if you fully understand the risks involved.
+
+---
+
+## License
+
+Due to a historical misunderstanding, the LICENSE file in the repo previously claimed that it was licensed under MIT and was owned by a5traa, and did not attribute the code that was used to its original author. This is still visible in the file's history, however it is false and invalid. The code was never licensed by the original author for use under the MIT license. The original author of the code has since authorised the distribution of the code under the terms of the GNU General Public License, version 3. This is the **only** license that the repository may be distributed under as it is a derivative work of the original code, as the repository's owner never had permission to release said code under MIT.
+
+<details>
+<summary>The corrected licensing information is as follows:</summary>
+
+```
+© 2024 Lenny McLennington <lenny@sneed.church>
+© 2025 Astraa
+
+FarmMergeValley-Injector is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3.
+
+FarmMergeValley-Injector is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with FarmMergeValley-Injector. If not, see <https://www.gnu.org/licenses/>.
+```
+</details>
 
 ---
 
